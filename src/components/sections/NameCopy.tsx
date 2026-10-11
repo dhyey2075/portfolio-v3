@@ -5,7 +5,7 @@ import { site } from "@/config/site";
 
 /**
  * The hero name is one inline-block per letter in a flex row, so a plain copy puts each letter on its own line.
- * This rewrites the clipboard when a selection touches the name: the whole name copies as "Raghav Goel", part of it
+ * This rewrites the clipboard when a selection touches the name: the whole name copies as "Dhyey Parekh", part of it
  * as the selected letters run together, and a selection spanning more of the page keeps its text with the name
  * fixed. Renders nothing.
  */

@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   applicationName: site.name.full,
   authors: [{ name: site.name.full, url: site.url }],
   creator: site.name.full,
-  keywords: [site.name.full, site.role, "AI agents", "RAG", "Next.js", "Node.js", "portfolio", site.employer.name],
+  keywords: [site.name.full, site.role, "backend", "RAG", "Next.js", "Node.js", "portfolio", "DAIICT"],
   alternates: { canonical: "/" },
   icons: { icon: [{ url: iconImage.path, type: "image/png", sizes: `${iconImage.size}x${iconImage.size}` }] },
   openGraph: {

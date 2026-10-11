@@ -13,7 +13,7 @@ paths:
 - **Copy voice:** plain, specific, outcome-first ("Cut production build time from 17 minutes to 3"). No filler, no
   hype, no em-dash asides. Skate vocabulary (decks, wheels, run log, card binder, checkpoints) is for labels and
   aliases. The substance stays professional.
-- **Real content only.** If a fact isn't known (dates, stack, results), ask Raghav rather than inventing it, or mark
+- **Real content only.** If a fact isn't known (dates, stack, results), ask Dhyey rather than inventing it, or mark
   it clearly as a placeholder.
 - `**bold**` in copy renders as emphasis via `<Rich>`, and `plain()` strips it for text outputs.
 - **Structured values over formatted strings.** Use date ranges as `from`/`to`, with an open end rendering the NOW badge.

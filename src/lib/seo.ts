@@ -28,7 +28,7 @@ export function personJsonLd() {
     hasCredential: certificates.map((c) => ({
       "@type": "EducationalOccupationalCredential",
       name: c.name,
-      credentialCategory: "certificate",
+      credentialCategory: "achievement",
       recognizedBy: { "@type": "Organization", name: c.issuer },
     })),
   };
@@ -68,7 +68,7 @@ export function llmsTxt() {
       .slice(1)
       .map((c) => c.title)
       .join(", ")}`,
-    `- [Full profile for LLMs](${site.url}/llms-full.txt): every project, skill, role and certificate as markdown`,
+    `- [Full profile for LLMs](${site.url}/llms-full.txt): every project, skill, role and achievement as markdown`,
     `- [Résumé](${site.resume.href})`,
     "",
     `## ${sec("experience").title}`,
@@ -132,11 +132,13 @@ export function llmsFullTxt() {
   wheelGroups.forEach((g) => out.push(`- ${g.name}: ${g.items.map((i) => `${i.name} (${i.duro})`).join(", ")}`));
   out.push(
     "",
-    "## Certificates",
+    "## Achievements",
     "",
     ...certificates.map((c) => `- ${c.name} — ${c.issuer}, ${c.date}${c.hours ? `, ${c.hours.toLowerCase()}` : ""}`),
     "",
   );
-  out.push("## Publications", "", ...publications.map((p) => `- ${p.title}. ${p.authors.join(", ")}. ${p.venue}.`), "");
+  if (publications.length) {
+    out.push("## Publications", "", ...publications.map((p) => `- ${p.title}. ${p.authors.join(", ")}. ${p.venue}.`), "");
+  }
   return out.join("\n");
 }

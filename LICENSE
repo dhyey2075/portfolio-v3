@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Raghav Goel
+Copyright (c) 2026 Dhyey Parekh
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -22,10 +22,11 @@ SOFTWARE.
 
 ---
 
-Scope: this license covers the source code only. Not covered, and © Raghav Goel,
-all rights reserved: the rider character and its art (src/features/ride/engine/riderArt.ts
-and scripts/rider), the deck cover illustrations, the written content in
-src/config, and the site's visual design. Third-party material keeps its own
-license: Bowlby One (SIL Open Font License, src/assets/fonts/OFL-BowlbyOne.txt) and
-the Simple Icons marks (CC0). Company names and logos are trademarks of their
-owners.
+Scope: this license covers the source code. Personal written content in
+src/config and branding for this deployment are © Dhyey Parekh.
+
+Original skate-run visual design, rider character art (src/features/ride/engine/riderArt.ts
+and scripts/rider), and deck-cover illustration system by Raghav Goel — used with
+permission. Third-party material keeps its own license: Bowlby One (SIL Open Font
+License, src/assets/fonts/OFL-BowlbyOne.txt) and Simple Icons marks (CC0). Company
+names and logos are trademarks of their owners.

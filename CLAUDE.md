@@ -1,6 +1,6 @@
 @AGENTS.md
 
-# Skate Run — Raghav Goel's portfolio
+# Skate Run — Dhyey Parekh's portfolio
 
 A 90s skate-zine portfolio. A code-built 3D skater rolls in and reveals the name, then jumps onto a progress-bar
 scrollbar that visitors ride through checkpoints (Projects → Stack → Experience → Certificates → Contact) to a

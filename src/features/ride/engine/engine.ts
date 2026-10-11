@@ -374,7 +374,7 @@ export function startRide(els: RideElements): () => void {
         }
         stiff = k < ph.pushEnd ? S.springs.push : S.springs.glide;
         const front = hx + Sh * I.revealLead;
-        // in reading order: each waits for the one before it (on phones GOEL hangs under RAGHAV, left of its end)
+        // in reading order: each waits for the one before it (on phones last name hangs under first, left of its end)
         letters.forEach((l, i) => {
           if (l.dataset.on !== undefined || (i > 0 && letters[i - 1].dataset.on === undefined)) return;
           const r = l.getBoundingClientRect();

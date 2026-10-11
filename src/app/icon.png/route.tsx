@@ -8,7 +8,7 @@ export const dynamic = "force-static";
 const size = { width: 64, height: 64 };
 
 /**
- * Favicon: the RG monogram from the old site, set in the hero's display face: white letters with an ink outline (crisp
+ * Favicon: initials monogram from site.name, set in the hero's display face: white letters with an ink outline (crisp
  * on light and dark tab bars alike) and the hero name's pink offset shadow, on a transparent background. Bowlby One is read from a vendored TTF at build time (the image renderer can't
  * read the woff2 next/font serves); nothing extra ships to visitors.
  */

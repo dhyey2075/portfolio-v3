@@ -1,30 +1,29 @@
 import type { Publication, SiteConfig } from "@/types/content";
 
-const url = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://raghavgoel.in").replace(/\/$/, "");
-const email = "work.raghav01@gmail.com";
+const url = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://dhyeyparekh.in").replace(/\/$/, "");
+const email = "dhyeyhparekh@gmail.com";
 
 export const site: SiteConfig = {
-  name: { first: "Raghav", last: "Goel", full: "Raghav Goel" },
-  role: "AI Software Engineer",
+  name: { first: "Dhyey", last: "Parekh", full: "Dhyey Parekh" },
+  role: "Software Engineer",
   description:
-    "Raghav Goel is an AI software engineer at ManufApp, building the AI agents that triage support tickets and the real-time, PDF and reporting systems behind a manufacturing ERP.",
+    "Dhyey Parekh is a software engineer and Mathematics and Computing student at DAIICT, building backend systems, AI-powered apps, and full-stack products that ship.",
   url,
   locale: "en_IN",
   email,
-  location: "Greater Noida, India",
+  location: "Bengaluru, India",
   timezone: { label: "UTC +5:30", iana: "Asia/Kolkata" },
-  availability: "Open to SWE, AI & FDE roles",
-  employer: { name: "ManufApp", url: "https://manufapp.com" },
+  availability: "Open to SWE and AI roles",
+  employer: { name: "Dhirubhai Ambani University", url: "https://www.daiict.ac.in" },
   education: {
-    school: "Galgotias College of Engineering and Technology",
-    degree: "B.Tech, Computer Science & Design",
-    from: "2021",
-    to: "2025",
+    school: "Dhirubhai Ambani University (DA-IICT)",
+    degree: "B.Tech, Mathematics and Computing",
+    from: "2023",
   },
   hero: {
-    tags: ["Full-stack engineer", "AI agents in production", "Real-time & cloud"],
+    tags: ["Software Engineer", "AI & RAG", "Full-stack"],
     subheading:
-      "I build AI products end to end: **the model calls, the product around them, and the infra** that keeps them up at 3am. At ManufApp, my agents triage **500+ support tickets a month**.",
+      "I build **reliable software, AI-powered products, and clean architectures**. Former MTS intern at DevRev, former intern at Fleetway, shipping systems from idea to production.",
     scribble: "scroll to drop in ↓",
     ctas: [
       { label: "See my work", href: "#experience", primary: true },
@@ -33,7 +32,7 @@ export const site: SiteConfig = {
   },
   contact: {
     pitch:
-      "Hiring for SWE, full-stack, AI or forward-deployed roles, or building with agents? Tell me what you're working on.",
+      "Hiring for SWE, backend, frontend, full-stack or AI roles, or building something ambitious? Tell me what you're working on.",
     reachTitle: "Reach me",
     emailLabel: "Email",
     copyLabel: "Copy",
@@ -41,7 +40,7 @@ export const site: SiteConfig = {
     openLabel: "Open",
     basedIn: "Based in",
     sticker: "Let's build something!",
-    tag: "RG",
+    tag: "DP",
     form: {
       title: "Send a message",
       web3formsKey: process.env.NEXT_PUBLIC_WEB3FORMS_KEY || undefined,
@@ -61,22 +60,16 @@ export const site: SiteConfig = {
     },
   },
   socials: [
-    { kind: "linkedin", label: "LinkedIn", handle: "raghav-goel01", href: "https://www.linkedin.com/in/raghav-goel01" },
-    { kind: "github", label: "GitHub", handle: "raaaghavv", href: "https://github.com/raaaghavv" },
-    { kind: "x", label: "X", handle: "@raaaghavvvvv", href: "https://x.com/raaaghavvvvv" },
+    { kind: "linkedin", label: "LinkedIn", handle: "dhyey2075", href: "https://www.linkedin.com/in/dhyey2075/" },
+    { kind: "github", label: "GitHub", handle: "dhyey2075", href: "https://github.com/dhyey2075" },
+    { kind: "x", label: "X", handle: "@dhyey2075", href: "https://x.com/dhyey2075" },
   ],
   resume: {
     title: "Résumé",
-    href: "https://drive.google.com/file/d/1BQYDqYr-dDf28rjuCAksqz75eSHAKVA2/view",
+    href: "/resume.pdf",
     label: "View PDF",
   },
   footnote: "Skater, skates and every graphic on this page are drawn in code.",
 };
 
-export const publications: Publication[] = [
-  {
-    title: "A Comparative Analysis of CNN and Stacked LSTM Models for Solar Power Generation Forecasting",
-    venue: "ICRTICC-2025, GCET Greater Noida (Taylor & Francis, CRC Press)",
-    authors: ["R. Goel", "A. Fatima", "Abhilasha", "T. Shree"],
-  },
-];
+export const publications: Publication[] = [];
